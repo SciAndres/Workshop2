@@ -15,7 +15,8 @@ Se utiliza una base de datos PostgreSQL para almacenar los datos. Asegúrate de 
 ```python
 engine = create_engine('postgresql://postgres:Basesdedatosandres@localhost:5432/WS2')
 
-Análisis de Datos de los Premios Grammy:
+## Análisis de Datos de los Premios Grammy:
+
 El análisis de datos de los premios Grammy se realiza en varias etapas:
 
 Carga de Datos: Los datos de los premios Grammy se cargan desde la base de datos PostgreSQL.
